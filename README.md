@@ -152,6 +152,14 @@ pytest tests/ -v
 - pydantic >= 2.0
 - streamlit >= 1.28.0
 
+## Disclaimer
+
+This is a **portfolio reference implementation** demonstrating PHI-aware architectural patterns with synthetic data.
+
+- **Not a certified medical device**
+- **Not a production HIPAA-compliant system**
+- **Demonstrates compliance-informed design patterns for regulated industries**
+
 ## License
 
 MIT
