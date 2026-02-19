@@ -162,4 +162,4 @@ This is a **portfolio reference implementation** demonstrating PHI-aware archite
 
 ## License
 
-MIT
+This project is licensed under the Apache License 2.0 — see [LICENSE](LICENSE) for details.
