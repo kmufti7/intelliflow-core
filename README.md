@@ -31,6 +31,14 @@ Pure utility functions (no I/O):
 - `truncate_text(text, max_length)` - Truncate with ellipsis
 - `calculate_cost(input_tokens, output_tokens, model)` - Calculate AI costs
 
+## v2 Features (LangGraph Governed Agentic Runtime)
+
+- **Kill-Switch Guard** — Deterministic circuit-breaker. Fail-closed. Collect-all-failures.
+- **MCP Tool Registry** — Static catalog, lock-at-init, dynamic session scoping.
+- **WORM Audit Log** — HMAC-SHA256 hash chain. SQLite triggers. Fail-closed. trace_id.
+- **Token FinOps Tracker** — Append-only cost ledger. Immutable receipt pattern.
+  Supports chargeback, PTU forecasting, SR 11-7 operational efficiency evidence.
+
 ## Installation
 
 ### From Source (Development)
