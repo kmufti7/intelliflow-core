@@ -157,6 +157,12 @@ need a Data Lifecycle Management policy (e.g., 90-day archival to cold storage).
 
 ---
 
+## Verification
+Commands the `verify-after-edit` hook and `/verify-app` skill will run. Read-only, under 30s each.
+- `python --version`
+- `python -c "import intelliflow_core; print('v1 import ok')"`
+- `python -m pytest --collect-only -q tests/ 2>&1 | tail -3`
+
 ## Truth Table
 
 | Claim | Value |
